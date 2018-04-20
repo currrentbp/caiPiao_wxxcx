@@ -2,8 +2,8 @@
  <view>{{text}}</view>
  <view wx:for-items="{{daletouList}}" id="{{item.id}}" > 
   第{{item.id}}期 
-    <text class="red" wx:for-items="{{item.reds}}">{{item}} </text> 
-    <text class="blue" wx:for-items="{{item.blus}}">{{item}} </text>
+    <text class="red" wx:for-items="{{item.red}}">{{item}} </text> 
+    <text class="blue" wx:for-items="{{item.blue}}">{{item}} </text>
  </view>
  <view class="next">下一页</view>
  
