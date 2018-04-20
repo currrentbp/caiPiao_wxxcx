@@ -5,6 +5,6 @@
     <text class="red" wx:for-items="{{item.red}}">{{item}} </text> 
     <text class="blue" wx:for-items="{{item.blue}}">{{item}} </text>
  </view>
- <view class="next">下一页</view>
+ <view class="next" bindtap="next">下一页</view>
  
 </view>
